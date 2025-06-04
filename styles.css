@@ -1,0 +1,55 @@
+body{
+
+  background:linear-gradient(-90deg, #363553, #903775, #E8458B);
+  background-repeat: no-repeat;
+  height: 100vh;
+ 
+ font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+  
+
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 80px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+   place-items: center;
+height: 460px;
+margin-top: 150px;
+margin-bottom: 150px;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+button{
+    background-color: rgb(95, 39, 93) ;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  border-radius: 10px;
+    border: none;
+    justify-content: center;
+    padding: 8px ;
+     box-shadow: 5px 5px 5px  #752c5f;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+p{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: x-large;
+  color: white;
+}
