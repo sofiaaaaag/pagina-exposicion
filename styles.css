@@ -24,7 +24,7 @@ margin-top: 150px;
 margin-bottom: 150px;
 
 }
-h1{
+h1,h2{
     color: white;
     text-align: center;
     
@@ -55,4 +55,50 @@ p{
   font-style: normal;
   font-size: x-large;
   color: white;
+}
+.contenedor {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 100%;
+}
+.contenedor-de-imagenes {
+   display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.img, .img1{
+   width: 300px;
+  height: 300px;
+  border-radius: 50%; 
+  object-fit: contain;
+  background-color: black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.img:hover,.img1:hover{
+    transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.tarjeta{
+  background-color: #903775;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+.tarjeta:hover{
+  background-color: #e0e0e0;
+}
+.respuesta{
+  display: none;
+  margin-top: 10px;
+  color: #333;
+}
+.respuesta.mostrar{
+  display: block;
 }

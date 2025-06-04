@@ -16,5 +16,27 @@ No verificar los datos que ingresan los usuarios puede permitir ataques como iny
 <br></br>
 -Almacenamiento inseguro de contraseñas:
 Guardar contraseñas sin cifrado o con algoritmos inseguros permite que, si hay una filtración, las contraseñas se puedan leer fácilmente.</p>
+
+<h2>Hace click para ver las respuestas</h2>
+<div class="tarjeta" onclick="mostrarRespuesta(this)">
+    <p>Que es un token?</p>
+    <p class="respuesta">Es una unidad digital que representa seguridad o acceso en sistemas de comercio digital.</p>
+</div>
+<div class="tarjeta" onclick="mostrarRespuesta(this)">
+    <p>Que es una vulnerabilidad comun?</p>
+    <p class="respuesta">La inyección SQL, que permite manipular bases de datos si no están bien protegidas.</p>
+</div>
+<div class="tarjeta" onclick="mostrarRespuesta(this)">
+    <p>Que error cometen los usuarios?</p>
+    <p class="respuesta">Usar contraseñas débiles o repetidas en distintas plataformas.</p>
+</div>
+
+
+<script>
+    function mostrarRespuesta(elemento){
+        const respuesta=elemento.querySelector('.respuesta')
+        respuesta.classList.toggle('mostrar')
+    }
+</script>
 </body>
 </html>
